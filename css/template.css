@@ -1,0 +1,397 @@
+*{
+    font-family: arial;
+}
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+
+
+.logo{
+    
+    display:flex;
+    align-items:center;
+
+}
+.logo-img{
+    width: 500px;
+    height: 200px;
+}
+
+
+.menu{
+    display:flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+
+}
+nav ul{
+    display:flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    
+}
+
+nav .active a,
+nav a:hover{
+    background-color: crimson;
+    color: beige;
+}
+
+#banner{
+    display:flex;
+    justify-content: center;
+    background-image:url('../imagens/saude-e-bem-estar.jpg');
+    background-position:center;
+    background-size:cover;
+    margin-bottom: 120px;
+    margin-top: 60px;
+    margin-left:200px;
+    margin-right: 200px;
+    height:240px;
+    width: auto;
+}
+#banner .img{
+    width: auto;
+}
+
+.column{
+    flex-direction: column;
+}
+.banner_headline{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color: crimson;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    max-width: 500PXpx;
+}
+.banner_headline h2 {
+    color: crimson;
+    font-size: 30px;
+    text-shadow: 0x 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+
+}
+
+.banner_options{
+    width: auto;
+    height:170px;
+    display: flex;
+    margin-left: 100px;
+    margin: auto;
+    margin-top:23%;
+}
+.banner1,
+.banner2,
+.banner3 {
+    width: 200px;
+    color: #ffffff;
+    padding: 10px;
+   
+    
+
+}
+.banner1{
+    background-color: yellowgreen;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.banner2{
+    background-color: rgb(50, 74, 155);
+
+}
+.banner3{
+    background-color: rgb(177, 61, 26);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.banner_title{
+    font-size: 21px;
+    
+}
+.banner_descrição{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.banner_options a {
+    display:inline-block;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 25px;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.box div, hr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10;
+    color: #ffffff;
+
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+
+}
+#geral aside{
+    flex: 1;
+}
+.widget{
+    margin-left: 50px;
+
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 10px;
+    
+}
+article{
+    flex: 1;
+    min-width: 200px;
+    margin-right: 25px;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article a{
+    text-decoration: none;
+}
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+
+}
+article .news_comments{
+    background-color: rgb(235, 103, 103);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px;
+
+}
+article .tumb{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+ article .tumb img{
+     width: 100%;
+     height: auto;
+}
+
+article .tumb2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+article .tumb2 img{
+     width: 100%;
+     height: auto;
+     margin-top: 19px;
+     
+}
+article .tumb3{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+ article .tumb3 img{
+     width: 100%;
+     height: auto;
+}
+article .tumb4{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+ article .tumb4 img{
+     width: 100%;
+     height: auto;
+}
+ article .news_title{
+     margin-top:25px;
+     margin-bottom:20px;
+     color: black;
+     font-size: 23px;
+}
+
+ article .news_title hr{
+    color: brown;
+
+}
+article .news_resume{
+    color: black;
+    font-size: 16px;
+    margin-bottom:20px;
+    text-align:justify
+}
+
+.widget_color{
+    display:flex;
+    flex-wrap: wrap;
+}
+.color{
+    width:110px;
+    height:110px;
+    background-color: brown;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.icons_phone{
+    display: flex;
+    align-items: center;
+    background-color:yellowgreen;
+    width: 235px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.icons_phone img{
+    border-radius: 10px;
+    width: 35px;
+    color: white;
+    margin-left: 5px;
+}
+.icons_phone p{
+    width: auto;
+}
+.icons_email{
+    display: flex;
+    align-items: center;
+    background-color:rgb(50, 74, 155);
+    width: 235px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    
+
+}
+.icons_email img,p{
+    border-radius: 10px;
+    align-items: center;
+    width: 35px;
+    color: white;
+    margin-left: 5px;
+   
+}
+footer{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer_menu{
+    display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.fm_1{
+    background-color: yellowgreen;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.fm_2{
+    background-color: rgb(50, 74, 155);
+
+}
+.fm_3{
+    background-color: rgb(238, 60, 6);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer_area{
+    display: flex;
+}
+.footer_areaitem{
+    flex: 1;
+    color: rgba(146, 146, 146, 0.418);
+
+}
+.flexcolumn{
+    flex-direction: column;
+}
+footer .widget_title_text{
+    color: white;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer_areaitem{
+    margin: 10px;
+}
