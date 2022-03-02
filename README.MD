@@ -9,8 +9,10 @@ Layout criado com o objetivo de aprendizado e aprimoramento de CSS e HTML Curso 
 ![image](https://user-images.githubusercontent.com/74870713/156310608-4a3fa7b7-c2e4-43bd-8b5e-972172b96443.png)
 
 
+### Tecnologias para realização do projeto:
 
-
+- HTML <img align="center" alt="tito-HTML" height="15" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+- CSS <img align="center" alt="tito-CSS" height="15" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 ### AUTORIA 
 ###### ITALO DE SOUSA
