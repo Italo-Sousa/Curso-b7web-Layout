@@ -1,5 +1,17 @@
 Layout criado com o objetivo de aprendizado e aprimoramento de CSS e HTML Curso Front-end B7web.
 
+### Imagens Ilustrativas do projeto:
+
+![image](https://user-images.githubusercontent.com/74870713/156309417-16557e49-b477-45fb-9470-5b51436c7527.png)
+
+![image](https://user-images.githubusercontent.com/74870713/156309557-0649f1c0-a0c0-43c9-830c-35f6ba662e46.png)
+
+![image](https://user-images.githubusercontent.com/74870713/156310608-4a3fa7b7-c2e4-43bd-8b5e-972172b96443.png)
+
+
+
+
+
 ### AUTORIA 
 ###### ITALO DE SOUSA
 
